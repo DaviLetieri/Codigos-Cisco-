@@ -187,7 +187,7 @@ Configurar IP sem switch
 (config)#interface vlan 90
 (config-if)#ip address <endereço> <máscara>
 
-
+!RIP
 router rip
             version 2
             network 10.0.0.17
